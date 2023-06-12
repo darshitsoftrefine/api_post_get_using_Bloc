@@ -17,7 +17,7 @@ class CoupinosLogin extends PostRepository {
         'Content-Type': 'application/json; charset=UTF-8',
         'x-access-token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNjMxYWQxNDhlMGEyNjkwMDIzMWJiNTc5IiwiZW1haWwiOiJsZWFybnRlc3Q0MysxQGdtYWlsLmNvbSIsInJvbGUiOlsiUmVndWxhclVzZXIiXSwiZmlyc3ROYW1lIjoiSGFycnkiLCJsYXN0TmFtZSI6IlBvdHRlciIsImlzRGVmYXVsdEltYWdlIjpmYWxzZSwiZGVmYXVsdEltYWdlUGF0aCI6IiIsImlzUmVnaXN0cmF0aW9uQ29tcGxldGUiOnRydWUsImlhdCI6MTY4NDIyOTkzNSwiZXhwIjoxNjg2ODIxOTM1fQ.QZ8SEIejeJVnpWX0lw3-3iTH8w5BKxkkSPtytiqd8NE'
       },
-      body: jsonEncode(<String, double>{
+      body: jsonEncode(<String, dynamic>{
         "radius": 10,
         "pageSize": 10,
         "page": 0,
